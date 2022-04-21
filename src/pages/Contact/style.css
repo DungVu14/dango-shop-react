@@ -1,0 +1,162 @@
+.contact-page {
+    padding: -2px 60px;
+}
+.contact-info {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+}
+.contact-info > div {
+    width: 490px;
+    height: 508px;
+    margin-left: 10px;
+}
+.contact-info .title {
+    text-align: left;
+    font-size: 30px;
+    line-height: 36.31px;
+    font-weight: 700;
+    color: #000000;
+}
+.contact-info i {
+    text-align: left;
+    font-size: 14px;
+    line-height: 21px;
+    font-weight: 400;
+    color: #000000;
+}
+.info_0 {
+    width: 430px;
+    height: 100px;
+    display: flex;
+    justify-content: space-between;
+    margin-top:16px;
+  }
+.info_0 span{
+    margin-left: 16px;
+}
+.info_0 p{
+    margin-top:16px;
+    margin-left:2px;
+    font-size:14px;
+
+}
+.info_0 .address_01 img {
+    width: 35px;
+    height: 35px;
+    margin-left: 0px;
+}
+
+.info_1 {
+    width: 485px;
+    display: flex;
+    justify-content: space-between;
+    margin-top:0px;
+}
+.info_1 span{
+    margin-left: 16px;
+}
+.info_1 p{
+    margin-top:16px;
+    margin-left:2px;
+    font-size:14px;
+
+}
+.info_1 .address_01 img {
+    width: 35px;
+    height: 35px;
+    margin-left: 0px;
+}
+.social1 img {
+    width: 40px;
+    height: 40px;
+    margin-right: 32px;
+    margin-top:32px;
+}
+.contact-info-2 {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 10px;
+
+}
+.contact-info-2 > div {
+    width: 490px;
+    height: 508px;
+    margin-left: 10px;
+}
+.contact-info-2 .contact-info-2-form{
+    position: absolute;
+    left: 710px;
+    top: 170px;
+
+}
+.contact-info-2-form .name {
+    position: absolute;
+    width: 290px;
+    height: 48px;
+    background-color: #e1e1e1;
+    border-radius: 8px;
+    border: none;
+    align-items: center;
+    padding: 12px 20px;
+}
+input:focus{
+    outline: none;
+}
+textarea:focus{
+    outline: none;
+}
+.contact-info-2-form .phone {
+    position: absolute;
+    width: 290px;
+    height: 48px;
+    left: 320px;
+    background-color: #e1e1e1;
+    border-radius: 8px;
+    border: none;
+    padding: 12px 20px;
+}
+.contact-info-2-form .email {
+    position: absolute;
+    width: 610px;
+    height: 48px;
+    top: 70px;
+    background-color: #e1e1e1;
+    border-radius: 8px;
+    border: none;
+    padding: 12px 20px;
+}
+.contact-info-2-form .body {
+    position: absolute;
+    width: 610px;
+    height: 48px;
+    top: 140px;
+    background-color: #e1e1e1;
+    border-radius: 8px;
+    border: none;
+    padding: 12px 20px;
+}
+.contact-info-2-form .body2 {
+    position: absolute;
+    width: 610px;
+    height: 148px;
+    top: 210px;
+    background-color: #e1e1e1;
+    border-radius: 8px;
+    border: none;
+    padding: 12px 20px;
+}
+.contact-info-2-form .button {
+    position: absolute;
+    width: 150px;
+    height: 48px;
+    top: 380px;
+    background-color: #f24e1e;
+    color: #fff;
+    font-weight: 700;
+    font-size: 18px;
+    text-align: center;
+    border-radius: 8px;
+    border: none;
+}
+

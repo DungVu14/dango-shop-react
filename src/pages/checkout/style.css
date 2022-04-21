@@ -1,0 +1,241 @@
+.checkout-page {
+  margin: 25px 60px;
+}
+
+.checkout-page h5 {
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 24px;
+  color: #161515;
+}
+
+.checkout-page .info {
+  display: flex;
+  justify-content: space-between;
+  align-content: center;
+  margin-bottom: 50px;
+}
+
+.checkout-page .info table {
+  margin-left: 10px;
+}
+
+.checkout-page .info table td {
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 30px;
+  color: #161515;
+}
+
+.checkout-page .info table td p {
+  margin: 0;
+}
+
+.checkout-page .info table td:first-child {
+  width: 210px;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 22px;
+  color: #161515;
+}
+
+.checkout-page .info .macdinh {
+  font-style: italic;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 22px;
+  color: #376ce0;
+}
+
+.checkout-page .info .thaydoi {
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 22px;
+  color: #e95324;
+  margin-left: 36px;
+}
+
+.checkout-page .table thead {
+  border: 1px solid #e1e1e1;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 17px;
+  color: #e95324;
+}
+
+.checkout-page .table thead .sanpham {
+  width: 500px;
+}
+
+.checkout-page .table tbody tr {
+  vertical-align: middle;
+}
+
+.checkout-page .table tbody tr {
+  border-left: 1px solid #e1e1e1;
+  border-right: 1px solid #e1e1e1;
+}
+
+.checkout-page .table tbody tr:first-child {
+  border-top: 1px solid #e1e1e1;
+}
+
+.checkout-page .table tbody tr:last-child {
+  border-bottom: 1px solid #e1e1e1;
+}
+
+.checkout-page .table tbody:before {
+  content: '@';
+  display: block;
+  line-height: 25px;
+  text-indent: -99999px;
+  border: 1px solid #ffffff;
+}
+
+.checkout-page .table .sanpham img {
+  width: 96px;
+  height: 92.64px;
+  border: 1px solid #376ce0;
+  margin-right: 25px;
+}
+
+.checkout-page .table .sanpham .name {
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 17px;
+  color: #161515;
+}
+
+.checkout-page .table .dongia {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 17px;
+  color: #161515;
+}
+
+.checkout-page .table .tongtien {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 17px;
+  color: #e95324;
+}
+
+.checkout-page .coupon {
+  text-align: right;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 22px;
+  color: #e95324;
+  margin: 35px 135px 25px 0px;
+}
+
+.checkout-page h4 {
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 29px;
+  color: #161515;
+}
+
+.checkout-page .payment input {
+  margin-left: 5px;
+}
+
+.checkout-page .payment label {
+  margin-left: 20px;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 40px;
+  color: #161515;
+}
+
+.checkout-page .summery {
+  margin-top: 65px;
+  margin-bottom: 55px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.checkout-page .summery .dathang {
+  font-style: italic;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 19px;
+  color: #e95324;
+  align-self: flex-end;
+}
+
+.checkout-page .summery .dathang span {
+  font-weight: 700;
+}
+
+.checkout-page .summery .sum {
+  width: 355px;
+  margin-right: 135px;
+}
+
+.checkout-page .summery .sum > div {
+  display: flex;
+  justify-content: space-between;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 24px;
+  color: #161515;
+  margin-bottom: 25px;
+}
+
+.checkout-page .summery .sum .tongcong {
+  font-weight: 700;
+  color: #e95324;
+}
+
+.checkout-page .summery .sum button {
+  background: #e95324;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 29px;
+  color: #ffffff;
+  border: none;
+  padding: 15px 124px;
+  border-radius: 8px;
+  cursor: pointer;
+}
+
+.payment-modal .modal-body {
+  height: 675px;
+  background: url('../../../public/assets/images/pay_success.png') no-repeat center center;
+  background-size: 671px 671px;
+}
+
+.payment-modal .modal-body .text {
+  text-align: center;
+  position: relative;
+  top: 260px;
+}
+
+.payment-modal .modal-body .text h3 {
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 24px;
+  color: #000000;
+  margin-bottom: 8px;
+}
+
+.payment-modal .modal-body .text p {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 17px;
+  color: #000000;
+  margin-bottom: 55px;
+}
+
+.payment-modal .modal-body .text button {
+  position: relative;
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 22px;
+  color: #ffffff;
+  border: none;
+  background: #e95324;
+  border-radius: 5px;
+  padding: 15px 35px;
+}

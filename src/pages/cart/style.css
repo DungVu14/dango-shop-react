@@ -1,0 +1,141 @@
+.cart-page {
+  margin: 25px 60px 55px 60px;
+}
+
+.cart-page table thead {
+  border: 1px solid #e1e1e1;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 17px;
+  color: #e95324;
+}
+
+.cart-page table thead .sanpham {
+  width: 320px;
+}
+
+.cart-page table tbody tr {
+  border: 1px solid #616161;
+  vertical-align: middle;
+}
+
+.cart-page table tbody:before {
+  content: '@';
+  display: block;
+  line-height: 25px;
+  text-indent: -99999px;
+  border: 1px solid #ffffff;
+}
+
+.cart-page table .trangthai input {
+  width: 15px;
+  height: 15px;
+  margin-right: 25px;
+  vertical-align: middle;
+}
+
+.cart-page tbody .trangthai .success {
+  font-style: italic;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 17px;
+  color: #376ce0;
+}
+
+.cart-page tbody .trangthai .fail {
+  font-style: italic;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 17px;
+  color: #e95324;
+}
+
+.cart-page table .sanpham img {
+  width: 96px;
+  height: 92.64px;
+  border: 1px solid #376ce0;
+  margin-right: 25px;
+}
+
+.cart-page table .sanpham .name {
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 17px;
+  color: #161515;
+}
+
+.cart-page table .dongia {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 17px;
+  color: #161515;
+}
+
+.cart-page table .tongtien {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 17px;
+  color: #e95324;
+}
+
+.cart-page .summery {
+  width: 250px;
+  margin: 36px 25px 0px auto;
+}
+
+.cart-page .summery div {
+  display: flex;
+  justify-content: space-between;
+}
+
+.cart-page .summery p {
+  display: inline-block;
+  width: 145px;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 22px;
+  color: #161515;
+}
+
+.cart-page .summery span {
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 22px;
+  color: #e95324;
+}
+
+.cart-page .summery button {
+  background: #e95324;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 29px;
+  color: #ffffff;
+  border: none;
+  padding: 15px 67px;
+  border-radius: 5px;
+  cursor: pointer;
+  margin: 35px 0px;
+}
+
+.cart-page .frontgager {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 20px;
+  margin-top: 50px;
+}
+
+.cart-page .frontgager p {
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 29px;
+  color: #376ce0;
+}
+
+.cart-page .frontgager a {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 17px;
+  color: #e95324;
+  text-decoration: none;
+}

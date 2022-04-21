@@ -1,0 +1,95 @@
+.forgotpass-page {
+    padding: 48px 60px;
+    align-items: center;
+  }
+  .login-image {
+    width: 100%;
+  }
+  .forgotpass-form .title {
+    text-align: center;
+    font-size: 30px;
+    line-height: 36px;
+    font-weight: 700;
+    color: #f24e1e;
+    margin-top: 86px;
+    margin-bottom: 20px;
+  }
+  form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  form label {
+    font-size: 18px;
+    line-height: 22px;
+    font-weight: 600;
+    display: inline-block;
+    margin-top: 27px;
+    margin-bottom: 13px;
+  }
+  form input {
+    border: none;
+    width: 350px;
+    height: 35px;
+  }
+  form input:focus {
+    outline: none;
+  }
+  form .input {
+    height: 70px;
+    width: 516px;
+    box-shadow: 0px 2px 6px rgba(0, 0, 0, 0.25);
+    border-radius: 8px;
+    display: flex;
+    align-items: center;
+  }
+  form img {
+    width: 32px;
+    height: 32px;
+    margin: 0px 24px;
+  }
+  form .eye {
+    width: 24px;
+    height: 24px;
+    margin-left: 120px;
+    cursor: pointer;
+  }
+  .forget-password {
+    display: block;
+    text-align: right;
+    margin-right: 30px;
+    font-size: 14px;
+    line-height: 16px;
+    font-weight: 400;
+    color: #616161;
+    margin-top: 16px;
+    margin-bottom: 23px;
+    cursor: pointer;
+  }
+  .forgotpass-form button {
+    width: 516px;
+    height: 70px;
+    display: block;
+    margin: 16px 0px 0px -4px ;
+    background: #f24e1e;
+    border-radius: 8px;
+    outline: none;
+    border: none;
+    font-size: 20px;
+    line-height: 24px;
+    font-weight: 700;
+    color: #ffffff;
+  }
+  .forgotpass-form button:hover {
+    background: #ec643d;
+  }
+  .update {
+    margin-left: 25px;
+    margin-top: 16px;
+  }
+  .update a {
+    display: inline-block;
+    margin-left: 5px;
+    color: #f24e1e;
+  }
+  

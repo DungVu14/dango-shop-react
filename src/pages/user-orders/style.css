@@ -1,0 +1,175 @@
+.user-orders {
+  margin-left: 43px;
+}
+
+.user-orders .header {
+  width:893px;
+  padding-bottom: 63px;
+  padding-top: 24px;
+  margin-left: 0;
+  border-bottom: 1px solid #e1e1e1;
+  display: flex;
+  justify-content: space-around;
+
+}
+
+.user-orders .header a {
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 22px;
+  color: #161515;
+  text-decoration: none;
+  display: inline-block;
+  margin-top: 28px;
+}
+
+.user-orders .header a.active {
+  font-weight: 600;
+  color: #e95324;
+}
+
+.user-orders .content {
+  margin-left: 50px;
+}
+
+.user-orders .content .confirm {
+  height: 400px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.user-orders .content .confirm p {
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 29px;
+  color: #161515;
+  margin-bottom: 36px;
+}
+
+.user-orders .content .confirm button {
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 29px;
+  color: #ffffff;
+  background: #e95324;
+  border-radius: 5px;
+  padding: 10px 18px;
+  border: none;
+}
+
+.user-orders .content .order-item {
+  display: flex;
+  padding: 36px 0px;
+  justify-content: space-between;
+  border-bottom: 1px solid #e1e1e1;
+}
+
+.user-orders .content .order-item:last-child {
+  border: none;
+}
+
+.user-orders .content .order-item .product {
+  display: flex;
+}
+
+.user-orders .content .order-item .product img {
+  width: 112.22px;
+  height: 101px;
+  border: 1px solid #ec9981;
+  margin-right: 36px;
+}
+
+.user-orders .content .order-item .product p {
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 22px;
+  color: #161515;
+  margin-bottom: 12px;
+  margin-top: 5px;
+}
+
+.user-orders .content .order-item .product span,
+.user-orders .content .order-item .summery span {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 17px;
+  color: #161515;
+  display: block;
+  margin-bottom: 12px;
+}
+
+.user-orders .content .order-item .summery {
+  text-align: right;
+}
+
+.user-orders .content .order-item .summery span {
+  display: block;
+  width: 271px;
+  border-bottom: 1px solid #b1b0b0;
+  margin: 0;
+  padding-right: 50px;
+  padding-top: 30px;
+  padding-bottom: 48px;
+}
+
+.user-orders .content .order-item .summery p {
+  padding-right: 50px;
+  margin: 24px 0px;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 17px;
+  color: #ec643d;
+}
+
+.user-orders .content .order-item .summery button.fail {
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 17px;
+  color: #616161;
+  background: #e1e1e1;
+  border: 1px solid #e1e1e1;
+  border-radius: 5px;
+  border: none;
+}
+
+.user-orders .content .order-item .summery button.success {
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 17px;
+  color: #ffffff;
+  background: #e95324;
+  border: 1px solid #b1b0b0;
+  border-radius: 5px;
+  border: none;
+}
+
+.user-orders .content .order-item .summery button.huy {
+  padding: 12px 23px;
+  margin-right: 50px;
+}
+
+.user-orders .content .order-item .summery button.danhan {
+  padding: 12px 24px;
+  position: relative;
+  right: 74px;
+}
+
+.user-orders .content .order-item .summery button.trahang {
+  padding: 12px 14px;
+  position: relative;
+  right: 50px;
+}
+
+.user-orders .content .order-item .summery button.danhgia {
+  padding: 12px 40px;
+  position: relative;
+  right: 74px;
+}
+
+.user-orders .content .order-item .summery button.mualai {
+  padding: 12px 45px;
+  position: relative;
+  right: 50px;
+}

@@ -1,0 +1,75 @@
+.user-page {
+  margin: 40px 60px 80px 60px;
+  display: flex;
+  min-height: 500px;
+}
+
+.user-page .selected {
+  width: 250px;
+  border-right: 1px solid #616161;
+  padding-bottom: 15px;
+}
+
+.user-page .selected .avatar {
+  display: flex;
+  align-items: center;
+  padding-bottom: 24px;
+  margin-right: 10px;
+  padding-left: 10px;
+  border-bottom: 1px solid #e1e1e1;
+}
+
+.user-page .selected .avatar img {
+  width: 65px;
+  height: 66px;
+  margin-right: 16px;
+}
+
+.user-page .selected .avatar p {
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 19px;
+  color: #161515;
+  margin: 0;
+}
+
+.user-page .selected .title {
+  display: flex;
+  align-items: center;
+  margin-top: 27px;
+  padding-left: 10px;
+}
+
+.user-page .selected .title p {
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 22px;
+  color: #161515;
+  margin: 0;
+}
+
+.user-page .selected .title img {
+  width: 32px;
+  height: 32px;
+  margin-right: 10px;
+}
+
+.user-page .selected a {
+  text-decoration: none;
+  display: block;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 17px;
+  color: #161515;
+  margin-top: 15px;
+  margin-left: 54px;
+}
+
+.user-page .selected a.active {
+  color: #e95324;
+  font-weight: 600;
+}
+
+.user-page .page {
+  flex-grow: 1;
+}

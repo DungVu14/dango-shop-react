@@ -1,0 +1,138 @@
+.user-info {
+  margin-left: 43px;
+}
+
+.user-info .header {
+  width:893px;
+  padding-bottom: 63px;
+  padding-top: 24px;
+  margin-left: 0;
+  border-bottom: 1px solid #e1e1e1;
+}
+
+.user-info .header h3 {
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 22px;
+  color: #161515;
+  margin-top: 20px;
+}
+
+.user-info .header span {
+  font-style: italic;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 17px;
+  color: #161515;
+  display: inline-block;
+  margin-bottom: 20px;
+  padding-top: 26px;
+}
+
+.user-info .right {
+  display: flex;
+}
+
+.user-info table {
+  width: 600px;
+  margin-top: 30px;
+  border-right: 1px solid #e1e1e1;
+}
+
+.user-info table td {
+  display: flex;
+  align-items: baseline;
+}
+
+.user-info table td p {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 17px;
+  color: #161515;
+  margin-right: 96px;
+  flex-basis: 120px;
+}
+
+.user-info table td span,
+.user-info table td label {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 17px;
+  color: #161515;
+}
+
+.user-info table td input {
+  padding: 8px;
+  border: 1px solid #b1b0b0;
+  border-radius: 2px;
+  filter: drop-shadow(0px 2px 4px rgba(0, 0, 0, 0.25));
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 17px;
+  color: #161515;
+}
+
+.user-info table td .radio {
+  display: flex;
+}
+
+.user-info table td .radio input {
+  margin-right: 12px;
+  border: 0px;
+  width: 15px;
+  height: 15px;
+}
+
+.user-info table td label {
+  display: inline-block;
+  margin-right: 25px;
+}
+
+.user-info table button {
+  background: #e95324;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 17px;
+  color: #ffffff;
+  border: none;
+  padding: 12px 25px;
+  border-radius: 5px;
+  cursor: pointer;
+  margin: 35px 0px;
+}
+
+.user-info .avatar {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 165px;
+  margin-left: 45px;
+}
+
+.user-info .avatar img {
+  width: 100.45px;
+  height: 102px;
+}
+
+.user-info .avatar span {
+  display: block;
+  font-style: italic;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 15px;
+  text-align: center;
+  color: #161515;
+  margin: 15px 0px;
+}
+
+.user-info .avatar button {
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 17px;
+  color: #e95324;
+  border: 1px solid #e95324;
+  border-radius: 3px;
+  background: #ffffff;
+  padding: 12px 22px;
+}

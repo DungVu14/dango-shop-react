@@ -1,0 +1,142 @@
+.login-page {
+  padding: 48px 60px;
+  align-items: center;
+}
+.login-image {
+  width: 100%;
+}
+.login-form .title {
+  text-align: center;
+  font-size: 30px;
+  line-height: 36px;
+  font-weight: 700;
+  color: #f24e1e;
+  margin-bottom: 20px;
+}
+.social-login {
+  display: flex;
+  justify-content: space-around;
+  margin: 0 20px;
+}
+.social-login div {
+  width: 240px;
+  height: 70px;
+  border: 1px solid #f24e1e;
+  border-radius: 8px;
+  box-shadow: 0px 2px 2px #acacac;
+  display: flex;
+  align-items: center;
+  cursor: pointer;
+}
+.social-login .facebook {
+  width: 260px;
+}
+.social-login span {
+  font-size: 14px;
+  line-height: 16px;
+  font-weight: 500;
+}
+.social-login img {
+  width: 35px;
+  height: 35px;
+  margin-left: 10px;
+  margin-right: 25px;
+}
+.or {
+  margin-top: 25px;
+  margin-bottom: 8px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.or span {
+  font-size: 18px;
+  line-height: 22px;
+  font-weight: 700;
+  color: #f24e1e;
+  display: inline-block;
+  margin: 0px 13px;
+}
+.or .line {
+  width: 187px;
+  height: 1px;
+  background: #f24e1e;
+}
+form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+form label {
+  font-size: 18px;
+  line-height: 22px;
+  font-weight: 600;
+  display: inline-block;
+  margin-top: 27px;
+  margin-bottom: 13px;
+}
+form input {
+  border: none;
+  width: 350px;
+  height: 35px;
+}
+form input:focus {
+  outline: none;
+}
+form .input {
+  height: 70px;
+  width: 516px;
+  box-shadow: 0px 2px 6px rgba(0, 0, 0, 0.25);
+  border-radius: 8px;
+  display: flex;
+  align-items: center;
+}
+form img {
+  width: 32px;
+  height: 32px;
+  margin: 0px 24px;
+}
+form .eye {
+  width: 24px;
+  height: 24px;
+  margin-left: 120px;
+  cursor: pointer;
+}
+.forget-password {
+  display: block;
+  text-align: right;
+  margin-right: 30px;
+  font-size: 14px;
+  line-height: 16px;
+  font-weight: 400;
+  color: #616161;
+  margin-top: 16px;
+  margin-bottom: 23px;
+  cursor: pointer;
+}
+.login-form button {
+  width: 516px;
+  height: 70px;
+  display: block;
+  margin: 0 auto;
+  background: #f24e1e;
+  border-radius: 8px;
+  outline: none;
+  border: none;
+  font-size: 20px;
+  line-height: 24px;
+  font-weight: 700;
+  color: #ffffff;
+}
+.login-form button:hover {
+  background: #ec643d;
+}
+.register {
+  margin-left: 25px;
+  margin-top: 16px;
+}
+.register a {
+  display: inline-block;
+  margin-left: 5px;
+  color: #f24e1e;
+}

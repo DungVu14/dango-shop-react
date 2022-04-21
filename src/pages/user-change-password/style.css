@@ -1,0 +1,79 @@
+.user-change-password {
+  margin-left: 43px;
+}
+
+.user-change-password .header {
+  width:893px;
+  padding-bottom: 63px;
+  padding-top: 24px;
+  margin-left: 0;
+  border-bottom: 1px solid #e1e1e1;
+}
+
+.user-change-password .header h3 {
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 22px;
+  color: #161515;
+  margin-top: 20px;
+}
+
+.user-change-password .header span {
+  font-style: italic;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 17px;
+  color: #161515;
+  display: inline-block;
+  margin-bottom: 20px;
+  padding-top:26px;
+}
+
+.user-change-password .content {
+  margin-top: 45px;
+  margin-left: 40px;
+}
+
+.user-change-password .content span {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 17px;
+  color: #161515;
+  display: inline-block;
+  width: 150px;
+  margin-right: 50px;
+  margin-bottom: 40px;
+}
+
+.user-change-password .content input {
+  padding: 8px;
+  border: 1px solid #b1b0b0;
+  border-radius: 2px;
+  filter: drop-shadow(0px 2px 4px rgba(0, 0, 0, 0.25));
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 17px;
+  color: #161515;
+  width: 325px;
+}
+
+.user-change-password .content a {
+  font-style: italic;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 17px;
+  color: #e95324;
+  margin-left: 30px;
+}
+
+.user-change-password .content button {
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 17px;
+  color: #ffffff;
+  background: #b1b0b0;
+  border: 1px solid #b1b0b0;
+  border-radius: 2px;
+  padding: 12px 22px;
+  margin-left: 200px;
+}

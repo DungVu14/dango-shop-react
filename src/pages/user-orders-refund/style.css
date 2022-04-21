@@ -1,0 +1,96 @@
+.user-orders-refund {
+  margin-left: 43px;
+}
+
+.user-orders-refund .header {
+  width:893px;
+  padding-bottom: 63px;
+  padding-top: 24px;
+  margin-left: 0;
+  border-bottom: 1px solid #e1e1e1;
+}
+
+.user-orders-refund .header h3 {
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 22px;
+  color: #161515;
+  margin-top: 20px;
+}
+
+.user-orders-refund .content .order-item {
+  display: flex;
+  padding: 36px 0px;
+  justify-content: space-between;
+  border-bottom: 1px solid #e1e1e1;
+}
+
+.user-orders-refund .content .order-item:last-child {
+  border: none;
+}
+
+.user-orders-refund .content .order-item .product {
+  display: flex;
+}
+
+.user-orders-refund .content .order-item .product img {
+  width: 112.22px;
+  height: 101px;
+  border: 1px solid #f24e1e;
+  margin-right: 36px;
+}
+
+.user-orders-refund .content .order-item .product p {
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 22px;
+  color: #161515;
+  margin-bottom: 12px;
+  margin-top: 5px;
+}
+
+.user-orders-refund .content .order-item .product span,
+.user-orders-refund .content .order-item .summery span {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 17px;
+  color: #161515;
+  display: block;
+  margin-bottom: 12px;
+}
+
+.user-orders-refund .content .order-item .summery {
+  text-align: right;
+}
+
+.user-orders-refund .content .order-item .summery span {
+  display: block;
+  width: 271px;
+  border-bottom: 1px solid #b1b0b0;
+  margin: 0;
+  padding-right: 50px;
+  padding-top: 30px;
+  padding-bottom: 48px;
+}
+
+.user-orders-refund .content .order-item .summery p {
+  padding-right: 50px;
+  margin: 24px 0px;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 17px;
+  color: #ec643d;
+}
+
+.user-orders-refund .content .order-item .summery button {
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 17px;
+  color: #ffffff;
+  background: #e95324;
+  border: 1px solid #b1b0b0;
+  border-radius: 5px;
+  border: none;
+  padding: 12px 46px;
+  margin-right: 50px;
+}

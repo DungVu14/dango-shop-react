@@ -1,0 +1,93 @@
+.user-address {
+  margin-left: 43px;
+}
+
+.user-address .header {
+  width:893px;
+  padding-bottom: 63px;
+  padding-top: 24px;
+  margin-left: 0;
+  border-bottom: 1px solid #e1e1e1;
+  display: flex;
+  justify-content: space-between;
+  /* justify-items: center; */
+}
+
+.user-address .header h3 {
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 22px;
+  color: #161515;
+  margin-top: 20px;
+}
+
+.user-address .header button {
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 17px;
+  color: #ffffff;
+  padding: 12px 20px;
+  background: #e95324;
+  border-radius: 5px;
+  border: none;
+}
+
+.user-address table {
+  margin-top: 35px;
+  margin-left: 70px;
+  padding-bottom: 35px;
+  display: flex;
+  justify-content: space-between;
+  border-bottom: 1px solid #e1e1e1;
+}
+
+.user-address table td {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 35px;
+  color: #161515;
+}
+
+.user-address table td p {
+  margin: 0;
+}
+
+.user-address table td:first-child {
+  width: 210px;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 17px;
+  color: #161515;
+}
+
+.user-address table td .default {
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 15px;
+  color: #ffffff;
+  background: #376ce0;
+  border-radius: 8px;
+  padding: 5px 15px;
+}
+
+.user-address table .icon {
+  width: 201px;
+  text-align: center;
+  margin-top: 30px;
+}
+
+.user-address table .icon img:first-child {
+  margin-right: 40px;
+}
+
+.user-address table .icon button {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 17px;
+  color: #161515;
+  background: #ffffff;
+  border: 1px solid #161515;
+  border-radius: 5px;
+  padding: 12px 12px;
+  margin-top: 40px;
+}

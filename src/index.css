@@ -1,0 +1,29 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  width: 1280px;
+  margin: 0 auto;
+  font-family: 'Inter', sans-serif;
+}
+
+.breadcrumb-item {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 19px;
+  color: #000000 !important;
+}
+
+@media only screen and (max-width: 835px) {
+  body {
+    max-width: 834px;
+  }
+}
+@media only screen and (max-width: 415px) {
+  body {
+    max-width: 414px;
+  }
+}

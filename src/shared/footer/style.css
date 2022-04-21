@@ -1,0 +1,119 @@
+footer {
+  width: 1280px;
+  padding: 0px 60px;
+  background: #ee693f;
+  box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.25);
+  display: flex;
+}
+footer .left,
+footer .right {
+  width: 50%;
+}
+footer .shop {
+  display: flex;
+  align-items: center;
+  margin-top: 19px;
+  margin-bottom: 32px;
+}
+footer .shop img {
+  width: 90px;
+  height: 65.63px;
+}
+footer .shop h2 {
+  font-size: 36px;
+  line-height: 44px;
+  font-weight: 700;
+  color: #ffffff;
+  margin-left: 23px;
+  margin-top: 21px;
+}
+footer .info div {
+  margin-bottom: 32px;
+  color: #ffffff;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 24px;
+}
+footer .social {
+  margin-bottom: 49px;
+}
+footer .social img {
+  margin-right: 52px;
+  cursor: pointer;
+}
+footer .right {
+  display: flex;
+  justify-content: space-around;
+  margin-top: 39px;
+}
+footer .right h3 {
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 29px;
+  color: #ffffff;
+  margin-bottom: 32px;
+}
+footer > div a {
+  display: block;
+  text-decoration: none;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 22px;
+  color: #ffffff;
+  margin-bottom: 32px;
+}
+footer > div a:hover {
+  color: #e1e1e1;
+}
+@media only screen and (max-width: 835px) {
+  footer {
+    width: 834px;
+    padding: 0px 32px;
+    display: block;
+    padding-top: 50px;
+    padding-bottom: 40px;
+  }
+  footer .left,
+  footer .right {
+    width: 100%;
+  }
+  footer .left .shop {
+    font-size: 36px;
+    line-height: 44px;
+  }
+  footer .left .info div {
+    font-size: 16px;
+    line-height: 19px;
+  }
+  footer .left .social img {
+    width: 50px;
+    height: 50px;
+    margin-right: 36px;
+  }
+  footer .right {
+    justify-content: flex-start;
+  }
+  footer .right div {
+    margin-right: 36px;
+  }
+  footer .right h3 {
+    font-size: 22px;
+    line-height: 27px;
+  }
+  footer .right a {
+    font-size: 16px;
+    line-height: 19px;
+  }
+}
+@media only screen and (max-width: 415px) {
+  footer {
+    width: 414px;
+    padding: 0px 24px;
+    display: block;
+    padding-top: 50px;
+    padding-bottom: 40px;
+  }
+  footer .right {
+    display: block;
+  }
+}

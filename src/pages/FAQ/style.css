@@ -1,0 +1,35 @@
+.faq-page {
+  display: flex;
+}
+.faq-page .questions h3,
+.faq-page .answers h3 {
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 22px;
+  color: #000000;
+  margin-bottom: 16px;
+}
+
+.faq-page .questions {
+  display: flex;
+  flex-direction: column;
+  width: 250px;
+  height: 435px;
+  border-right: 1px solid #b1b0b0;
+}
+.faq-page .questions a {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 17px;
+  color: #000000;
+  text-decoration: none;
+  margin-bottom: 16px;
+}
+.faq-page .questions .active {
+  text-decoration: underline;
+}
+
+.faq-page .answers {
+  margin-left: 50px;
+  width: 828px;
+}
