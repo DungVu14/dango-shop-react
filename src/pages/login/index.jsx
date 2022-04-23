@@ -45,7 +45,7 @@ function LoginPage(props) {
               </div>
             </form>
             <Link className="forget-password" to="/forgot-password"> Quên mật khẩu?</Link>
-            <button>ĐĂNG NHẬP</button>
+            <Link to={'/'}><button>ĐĂNG NHẬP</button></Link>
             <div className="register">
               <span>Bạn chưa có tài khoản?</span>
               <Link to="/register">Đăng ký ngay</Link>

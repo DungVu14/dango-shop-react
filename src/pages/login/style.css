@@ -128,6 +128,9 @@ form .eye {
   font-weight: 700;
   color: #ffffff;
 }
+.login-form a {
+  text-decoration: none;
+}
 .login-form button:hover {
   background: #ec643d;
 }

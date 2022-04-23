@@ -50,7 +50,7 @@ function RegisterPage(props) {
                 </div>
               </div>
             </form>
-            <button>ĐĂNG KÝ</button>
+            <Link to={'/login'}><button>ĐĂNG KÝ</button></Link>
             <div className="signup">
               <span>Bạn đã có tài khoản?</span>
               <Link to="/login">Đăng nhập ngay</Link>
