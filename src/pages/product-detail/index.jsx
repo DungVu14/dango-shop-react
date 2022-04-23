@@ -78,8 +78,8 @@ function ProductDetai() {
           </div>
 
           <div className="button-group">
-            <button className="add-to-cart">Thêm vào giỏ hàng</button>
-            <button className="buy-now">Mua ngay</button>
+            <Link to={'/cart'}><button className="add-to-cart">Thêm vào giỏ hàng</button></Link>
+            <Link to={'/checkout'}><button className="buy-now">Mua ngay</button></Link>
           </div>
         </div>
       </div>
