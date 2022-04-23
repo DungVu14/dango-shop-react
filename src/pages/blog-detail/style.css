@@ -62,4 +62,23 @@
     margin-left: 32px;
     width:770px;
   }
+  .blog-detail .content{
+    width:770px;
+  }
+  .blog-detail .content_2 img {
+    width:400px;
+    height:265px;
+  }
+  .blog-detail .content .right p {
+    font-size: 20px;
+  }
+  .blog-detail .content .left {
+    margin-right:24px;
+  }
+  .blog-detail .category span {
+    color: #161515;
+  }
+  .blog-detail .content .right .title{
+    font-size:16px !important;
+  }
 }
