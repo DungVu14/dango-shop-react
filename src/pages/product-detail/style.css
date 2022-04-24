@@ -209,7 +209,7 @@
 }
 
 @media only screen and (max-width: 835px) {
-  .product-detail{
+  .product-detail {
     width: 770px;
   }
   .product-detail .detail {
@@ -219,8 +219,8 @@
     align-items: center;
   }
   .product-detail .intro .info {
-    margin-top:16px;
-    margin-left:0;
+    margin-top: 16px;
+    margin-left: 0;
   }
   .product-detail .frontgager h3 {
     font-weight: 700;
@@ -231,13 +231,12 @@
   }
   .product-detail .product-example {
     margin-left: -20px;
-
   }
   .product-detail .intro {
     flex-wrap: wrap;
   }
   .product-detail .intro .gallery .image img {
-    width:720px;
+    width: 720px;
   }
   .product-detail .product-item a img {
     width: 240px;
@@ -252,5 +251,90 @@
   .product-detail .product-item .div img {
     width: 20px;
     height: 20px;
+  }
+}
+@media only screen and (max-width: 415px) {
+  .product-detail {
+    width: 381px;
+  }
+  .product-detail .link {
+    margin-top: 16px;
+    margin-left: -38px;
+  }
+  .product-detail .intro .gallery .image img {
+    width: 381px;
+    height: 259px;
+    margin-left: -38px;
+  }
+  .product-detail .intro .gallery .images {
+    display: none;
+  }
+  .product-detail .intro .info {
+    margin-left: -35px;
+    width: 381px;
+  }
+  .product-detail .info .button-group {
+    display: flex;
+  }
+  .product-detail .info .add-to-cart {
+    width: 183px;
+    font-size: 16px;
+  }
+  .product-detail .info .buy-now {
+    font-size: 16px;
+  }
+  .product-detail .detail {
+    width: 380px;
+    margin-left: -38px;
+    min-height: 700px;
+    align-items: center;
+  }
+  .product-detail .product-example {
+    margin-left: -38px;
+    width: 381px;
+  }
+  .product-detail .product-example .product-item {
+    width: 178.5px;
+    margin-bottom: 24px;
+  }
+  .product-detail .product-example .product-item .image {
+    width: 100%;
+    height: 178.05px;
+  }
+  .product-item p {
+    display: -webkit-box;
+    -webkit-line-clamp: 1;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    word-break: break-word;
+  }
+  .product-detail .product-example .product-item .div img {
+    width: 16px;
+    height: 16px;
+  }
+  .product-item > div {
+    padding-right: 8px;
+    align-items: self-end;
+  }
+  .product-detail .product-example .product-item .div span {
+    font-size: 14px;
+  }
+  .product-detail .frontgager {
+    width: 381px;
+  }
+  .product-detail .frontgager h3 {
+    font-size: 20px;
+  }
+  .product-detail .frontgager a {
+    font-size: 13px;
+  }
+  .product-detail .detail table {
+    margin-right: auto;
+    margin-left: auto;
+  }
+  .product-detail .detail .danhgia {
+    margin-left: auto !important;
+    margin-right: auto;
   }
 }

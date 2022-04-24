@@ -82,3 +82,29 @@
     font-size:16px !important;
   }
 }
+@media only screen and (max-width: 415px){
+  .blog-detail{
+    width: 381px;
+    margin-left:20px;
+  }
+  .blog-detail .content .left {
+    width: 381px;
+  }
+  .blog-detail .content_2 img {
+    width: 381px;
+  }
+  .blog-detail .content_2 p {
+    width: 381px;
+  }
+  .blog-detail .title {
+    font-size: 20px;
+  }
+  .blog-detail .content {
+    flex-direction: column;
+    width: 381px;
+  }
+  .blog-detail .content .right {
+    width: 381px;
+  }
+  
+}

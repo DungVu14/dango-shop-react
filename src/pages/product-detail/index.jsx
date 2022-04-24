@@ -17,8 +17,13 @@ function ProductDetai() {
   const safeDescription = DOMPurify.sanitize(product.description);
   // chuyen tat ca ve html de chong ma doc 
   const isTablet = useMediaQuery({ query: '(max-width: 835px)' });
+  const isMobile = useMediaQuery({ query: '(max-width: 415px)' });
   let numsProduct, rangeProduct;
-  if (isTablet) {
+  if (isMobile) {
+    numsProduct = 6;
+    rangeProduct = 2;
+  }
+  else if (isTablet) {
     numsProduct = 4;
     rangeProduct = 3;
   } else {

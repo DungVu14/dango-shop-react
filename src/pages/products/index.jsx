@@ -9,11 +9,17 @@ import { useLocation } from 'react-router-dom';
 
 function Products() {
   const isTablet = useMediaQuery({ query: '(max-width: 835px)' });
+  const isMobile = useMediaQuery({ query: '(max-width: 415px)' });
   let numsProduct, rangeProduct;
-  if (isTablet) {
+  if (isMobile) {
+    numsProduct = 6;
+    rangeProduct = 2;
+  }
+  else if (isTablet) {
     numsProduct = 4;
-    rangeProduct = 3;
-  } else {
+    rangeProduct = 3; 
+  }
+  else {
     numsProduct = 3;
     rangeProduct = 4;
   }
